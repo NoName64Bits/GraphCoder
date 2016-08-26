@@ -1,0 +1,4 @@
+    public PictureBox picGraph;
+
+        public Graph()
+        {

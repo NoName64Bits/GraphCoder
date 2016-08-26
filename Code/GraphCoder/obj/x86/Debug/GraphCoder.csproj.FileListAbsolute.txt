@@ -1,0 +1,11 @@
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\bin\Debug\GraphCoder.exe
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\bin\Debug\GraphCoder.pdb
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.Form1.resources
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.Properties.Resources.resources
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.csproj.GenerateResource.Cache
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.exe
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.pdb
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\bin\Debug\ICSharpCode.TextEditor.dll
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.Form2.resources
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.Form3.resources
+C:\Users\NoName\Desktop\SprintScriptCompiler\GraphCoder\GraphCoder\obj\x86\Debug\GraphCoder.csprojResolveAssemblyReference.cache

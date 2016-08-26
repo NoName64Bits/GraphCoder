@@ -1,0 +1,40 @@
+            picGraph.Location = new Point(0, 0);
+            picGraph.Dock = DockStyle.Fill;
+
+            this.Controls.Add(picGraph);
+            this.Load += new EventHandler(loaded);
+        }
+
+        private void loaded(object sender, EventArgs e)
+        {
+            run();
+        }
+		
+        private void run()
+        {
+            Bitmap bm = new Bitmap(picGraph.ClientSize.Width, picGraph.ClientSize.Height);
+            using (Graphics gr = Graphics.FromImage(bm))
+            {
+                gr.Clear(Color.White);
+                gr.ScaleTransform(15f, -15f, System.Drawing.Drawing2D.MatrixOrder.Append);
+                gr.TranslateTransform(bm.Width * 0.5f, bm.Height * 0.5f,
+                               System.Drawing.Drawing2D.MatrixOrder.Append);
+
+                using (Pen axis_pen = new Pen(Color.LightGray, 0))
+                {
+                    gr.DrawLine(axis_pen, -g, 0, g, 0);
+                    gr.DrawLine(axis_pen, 0, -g, 0, g);
+                    for (int i = -g; i <= g; i++)
+                    {
+                        gr.DrawLine(axis_pen, i, -0.1f, i, 0.1f);
+                        gr.DrawLine(axis_pen, -0.1f, i, 0.1f, i);
+                    }
+                }
+
+                float dx = 2f / bm.Width;
+                float dy = 2f / bm.Height;
+                onDraw(gr, (float)g, dx, dy);
+            }
+
+            picGraph.Image = bm;
+        }
